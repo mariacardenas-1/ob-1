@@ -4,7 +4,6 @@ import { Contacto } from './contacto';
 
 
 const ComponenteB = ({contacto: {nombre, apellido, email, conectado }}) => {
-    //const {nombre, apellido, email, conectado } = contacto
     return (
         <div>
             <h4>
